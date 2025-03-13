@@ -95,15 +95,14 @@ pip install tensorflow keras matplotlib numpy seaborn scikit-learn
 ## 🎨 Visualization
 
 To better understand the model's decision-making, **Grad-CAM** is used to highlight important regions in the images that contribute to the model's predictions.
+![image](https://github.com/user-attachments/assets/2ad6d052-67b8-4fe6-be8d-6ddc4c7db612)
+![image](https://github.com/user-attachments/assets/85f7a55b-7fd4-4f92-8575-3dabaabf342f)
 
 ## 🔗 Additional Notes
 
 - The dataset is automatically split into 80% training and 20% validation.
 - Hyperparameters (learning rate, dropout, patience) are optimized per model.
 - The best model is saved as `first_model_<MODEL_NAME>.keras`.
-
-![image](https://github.com/user-attachments/assets/2ad6d052-67b8-4fe6-be8d-6ddc4c7db612)
-![image](https://github.com/user-attachments/assets/85f7a55b-7fd4-4f92-8575-3dabaabf342f)
 
 
 
